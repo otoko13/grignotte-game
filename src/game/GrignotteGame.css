@@ -1,0 +1,25 @@
+.GrignotteGame {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: #4a4a4a;
+    position: relative;
+}
+
+.question-pages-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.2s;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.question-pages-container.shown {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: unset;
+}

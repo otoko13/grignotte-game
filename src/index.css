@@ -1,0 +1,23 @@
+html {
+    width: 100%;
+    height: 100%;
+    touch-action: none;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+*:focus {
+    outline: none;
+}
